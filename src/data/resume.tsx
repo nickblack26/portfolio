@@ -5,11 +5,11 @@ export const DATA = {
 	name: 'Nick Black',
 	initials: 'NB',
 	url: 'https://dillion.io',
-	location: 'Dallas, TX',
-	locationLink: 'https://www.google.com/maps/place/dallas',
-	description: 'Full Stack Developer in Dallas, TX. I love building things and helping people.',
+	location: 'San Diego, CA',
+	locationLink: 'https://www.google.com/maps/place/san_diego',
+	description: 'Full Stack Developer in San Diego, CA. I love building things and helping people.',
 	summary:
-		'Highly experienced web developer with demonstrated success in delivering creative and user-oriented digital solutions for executive leaders. Over 5 years of experience working alongside stakeholders to build responsive web applications. Driven by passion for crafting exceptional, unique user experiences.',
+		`Full-stack software engineer with 7 years of experience designing and scaling SaaS platforms. Led the architecture and development of Athena, an internal system that unified ITSM, proposal workflows, and real-time communications into a single, maintainable platform. Strong experience with React, TypeScript, PostgreSQL, AWS, and CI/CD automation, with a focus on writing readable, well-structured code and shipping production-ready features. Proven ability to collaborate across teams, iterate through prototyping and experimentation, and build high-performance systems that solve real customer and operational problems.`,
 	avatarUrl: '/me.jpg',
 	skills: [
 		'React',
@@ -112,36 +112,36 @@ export const DATA = {
 		},
 	],
 	projects: [
+		// {
+		// 	title: 'Velo Call Center',
+		// 	href: '',
+		// 	dates: 'June 2024 - Current',
+		// 	active: true,
+		// 	description:
+		// 		'Crafted a custom call center frontend utilizing Next.js for dynamic front-end interfaces, Twilio for seamless cloud communication integration, and ConnectWise, IT Service software, to connect our CRM tooling.',
+		// 	technologies: ['Next.js', 'Typescript', 'TailwindCSS', 'Shadcn UI', 'Twilio', 'ConnectWise'],
+		// 	links: [
+		// 		// {
+		// 		// 	type: 'Website',
+		// 		// 	href: 'https://chatcollect.com',
+		// 		// 	icon: <Icons.globe className='size-3' />,
+		// 		// },
+		// 	],
+		// 	image: '/flex.png',
+		// 	video: '',
+		// },
 		{
-			title: 'Velo Call Center',
-			href: '',
-			dates: 'June 2024 - Current',
+			title: 'Method OS',
+			href: 'https://dashboard.method-os.com/',
+			dates: 'November 2023 - Current',
 			active: true,
 			description:
-				'Crafted a custom call center frontend utilizing Next.js for dynamic front-end interfaces, Twilio for seamless cloud communication integration, and ConnectWise, IT Service software, to connect our CRM tooling.',
-			technologies: ['Next.js', 'Typescript', 'TailwindCSS', 'Shadcn UI', 'Twilio', 'ConnectWise'],
-			links: [
-				// {
-				// 	type: 'Website',
-				// 	href: 'https://chatcollect.com',
-				// 	icon: <Icons.globe className='size-3' />,
-				// },
-			],
-			image: '/flex.png',
-			video: '',
-		},
-		{
-			title: 'Velo Proposal Tool',
-			href: 'https://vpt.velomethod.com/',
-			dates: 'November 2023 - February 2024',
-			active: true,
-			description:
-				'Developed a custom sales management platform to replace ConnectWise Sell, tailored to our needs. It streamlines the sales process with robust quoting, automated workflows, and real-time reporting, enhancing efficiency and productivity.',
+				'Sole architect of a multi-tenant ITSM/PSA platform built from scratch to replace five fragmented internal tools. Designed a polymorphic work-item schema, immutable versioned proposals, and in-database duplicate detection with skills-based ticket routing — all on a Postgres layer built to scale.',
 			technologies: ['Next.js', 'Typescript', 'TailwindCSS', 'Shadcn UI', 'PostgresSQL', 'Supabase'],
 			links: [
 				{
 					type: 'Website',
-					href: 'https://vpt.velomethod.com/',
+					href: 'https://dashboard.method-os.com/',
 					icon: <Icons.globe className='size-3' />,
 				},
 				// {
@@ -150,7 +150,7 @@ export const DATA = {
 				// 	icon: <Icons.github className='size-3' />,
 				// },
 			],
-			image: '/vpt.png',
+			image: '/method.png',
 			video: '',
 		},
 		{
